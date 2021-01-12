@@ -7,3 +7,4 @@ git+https://github.com/abhi-kumar/cocoapi.git#egg=pycocotools&subdirectory=Pytho
 
 dicttoxml
 xmltodict
+pillow>=8.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
