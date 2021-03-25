@@ -14,3 +14,4 @@ gluoncv
 
 git+https://github.com/abhi-kumar/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
 
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
