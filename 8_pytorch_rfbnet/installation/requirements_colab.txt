@@ -8,3 +8,4 @@ git+https://github.com/abhi-kumar/cocoapi.git#egg=pycocotools&subdirectory=Pytho
 dicttoxml
 xmltodict
 tensorboardX
+pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
