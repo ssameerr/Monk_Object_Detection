@@ -7,7 +7,7 @@ pandas
 cython
 tqdm
 
-pillow==6.0.0
+pillow==9.2.0
 opencv-python
 
 torch==1.0.0
@@ -21,3 +21,4 @@ notebook
 
 dicttoxml
 xmltodict
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
