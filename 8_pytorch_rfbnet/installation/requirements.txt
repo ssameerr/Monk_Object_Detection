@@ -20,3 +20,4 @@ xmltodict
 torch==1.3.1
 torchvision
 tensorboardX
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
