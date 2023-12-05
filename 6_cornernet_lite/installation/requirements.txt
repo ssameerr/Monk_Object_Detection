@@ -21,3 +21,4 @@ notebook
 
 dicttoxml
 xmltodict
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
