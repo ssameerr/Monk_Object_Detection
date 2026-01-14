@@ -1,6 +1,6 @@
 numpy
 opencv-python
-torch==1.4
+torch==2.9.0
 torchvision
 matplotlib
 pycocotools
@@ -17,3 +17,5 @@ xmltodict
 git+https://github.com/NVIDIA/apex.git#egg=apex
 pandas
 git+https://github.com/abhi-kumar/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
