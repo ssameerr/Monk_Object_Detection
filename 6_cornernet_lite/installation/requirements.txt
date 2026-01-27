@@ -10,7 +10,7 @@ tqdm
 pillow==6.0.0
 opencv-python
 
-torch==1.0.0
+torch==2.10.0
 torchvision==0.2
 
 
