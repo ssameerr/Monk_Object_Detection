@@ -7,3 +7,5 @@ git+https://github.com/abhi-kumar/cocoapi.git#egg=pycocotools&subdirectory=Pytho
 
 dicttoxml
 xmltodict
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
